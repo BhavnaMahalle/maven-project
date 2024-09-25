@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T22:48:10 GMT-07:00" name="Suite" finished-at="2024-09-22T22:48:23 GMT-07:00" duration-ms="13389">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T22:48:10 GMT-07:00" name="Testing on chrome" finished-at="2024-09-22T22:48:23 GMT-07:00" duration-ms="13389">
+      <class name="mavendemoproject.MavenProject.TestCase1_Register">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:mavendemoproject.MavenProject.TestCase1_Register@1677d1]" started-at="2024-09-22T22:48:10 GMT-07:00" name="launch_browser" finished-at="2024-09-22T22:48:16 GMT-07:00" duration-ms="6239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="Registration()[pri:0, instance:mavendemoproject.MavenProject.TestCase1_Register@1677d1]" started-at="2024-09-22T22:48:16 GMT-07:00" name="Registration" finished-at="2024-09-22T22:48:18 GMT-07:00" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:mavendemoproject.MavenProject.TestCase1_Register@1677d1]" started-at="2024-09-22T22:48:18 GMT-07:00" name="quit" finished-at="2024-09-22T22:48:18 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- mavendemoproject.MavenProject.TestCase1_Register -->
+      <class name="mavendemoproject.MavenProject.TestCase2_Successful_Login">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:mavendemoproject.MavenProject.TestCase2_Successful_Login@78b66d36]" started-at="2024-09-22T22:48:18 GMT-07:00" name="launch_browser" finished-at="2024-09-22T22:48:21 GMT-07:00" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="login()[pri:0, instance:mavendemoproject.MavenProject.TestCase2_Successful_Login@78b66d36]" started-at="2024-09-22T22:48:21 GMT-07:00" name="login" finished-at="2024-09-22T22:48:23 GMT-07:00" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:mavendemoproject.MavenProject.TestCase2_Successful_Login@78b66d36]" started-at="2024-09-22T22:48:23 GMT-07:00" name="quit" finished-at="2024-09-22T22:48:23 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- mavendemoproject.MavenProject.TestCase2_Successful_Login -->
+    </test> <!-- Testing on chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

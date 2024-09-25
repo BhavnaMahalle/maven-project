@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing on firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="mavendemoproject.MavenProject.TestCase2_Successful_Login">
+        <methods>
+          <include name="login"/>
+          <include name="quit"/>
+          <include name="parallel_testing"/>
+        </methods>
+      </class> <!-- mavendemoproject.MavenProject.TestCase2_Successful_Login -->
+      <class name="mavendemoproject.MavenProject.TestCase1_Register">
+        <methods>
+          <include name="Registration"/>
+          <include name="quit"/>
+          <include name="parallel_testing"/>
+        </methods>
+      </class> <!-- mavendemoproject.MavenProject.TestCase1_Register -->
+    </classes>
+  </test> <!-- Testing on firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
